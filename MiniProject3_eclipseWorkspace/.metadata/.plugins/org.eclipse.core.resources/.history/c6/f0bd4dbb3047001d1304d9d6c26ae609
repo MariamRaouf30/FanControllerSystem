@@ -1,0 +1,13 @@
+/*
+ * temp_sensor.h
+ *
+ *  Created on: Oct 8, 2022
+ *      Author: dell
+ */
+
+#ifndef TEMP_SENSOR_H_
+#define TEMP_SENSOR_H_
+
+
+
+#endif /* TEMP_SENSOR_H_ */

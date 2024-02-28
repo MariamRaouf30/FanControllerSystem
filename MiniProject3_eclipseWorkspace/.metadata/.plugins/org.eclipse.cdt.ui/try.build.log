@@ -1,0 +1,42 @@
+23:37:57 **** Incremental Build of configuration Debug for project try ****
+make all 
+Building file: ../try.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"try.d" -MT"try.o" -c -o "try.o" "../try.c"
+In file included from ../try.c:18:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../try.c:186:18: warning: multi-character character constant
+../try.c: In function 'LCD_displayStringRowColumn':
+../try.c:224: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../try.c: In function 'LCD_intgerToString':
+../try.c:233: warning: implicit declaration of function 'itoa'
+../try.c:234: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../try.c
+ 
+Building target: try.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,try.map -mmcu=atmega32 -o "try.elf"  ./gpio.o ./try.o   
+Finished building target: try.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S try.elf  >"try.lss"
+Finished building: try.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 try.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7806 bytes (23.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+23:37:58 Build Finished. 0 errors, 5 warnings. (took 1s.555ms)
+

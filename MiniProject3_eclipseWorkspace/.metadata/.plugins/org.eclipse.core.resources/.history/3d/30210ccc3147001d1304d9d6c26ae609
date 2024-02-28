@@ -1,0 +1,17 @@
+/*
+ * temp_sensor.c
+ *
+ *  Created on: Oct 8, 2022
+ *      Author: dell
+ */
+
+#include "lm35_sensor.h"
+
+#include "adc.h"
+
+uint8 lm35_sensor_getTemp(void){
+
+
+
+}
+

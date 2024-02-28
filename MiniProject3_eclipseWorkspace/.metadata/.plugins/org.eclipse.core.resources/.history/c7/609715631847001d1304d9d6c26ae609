@@ -1,0 +1,24 @@
+/*
+ * lcd.c
+ *
+ *  Created on: Oct 8, 2022
+ *      Author: dell
+ */
+
+#include "lcd.h"
+#include "common_macros.h"
+#include "gpio.h"
+#include <util/delay.h>
+
+
+void LCD_init(void){
+	CLEAR_BIT();
+}
+
+
+void LCD_sendCommand(uint8 command){
+	GPIO_writePin(LCD_RS_PORT_ID, LCD_RS_PIN_ID, LOGIC_LOW);
+	_delay_ms(1);
+	GPIO_writePin(LCD_ENABLE_PORT_ID, LCD_ENABLE_PIN_ID, LOGIC_HIGH);
+
+}

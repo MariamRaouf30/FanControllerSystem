@@ -1,0 +1,21 @@
+/*
+ * PWM.c
+ *
+ *  Created on: Oct 6, 2022
+ *      Author: dell
+ */
+
+#include "gpio.h"
+#include "common_macros.h"
+#include "std_types.h"
+#include <avr/io.h>
+#include <util/delay.h>
+
+
+
+void PWM_Timer0_Start(uint8 duty_cycle){
+	TCNT0 = 0;
+	OCR0  = duty_cycle;
+	DDRB |= (1 << PB3);
+	TCCR0 = (1 << WGM01) | (1 << WGM00) | (1 << COM01) | (1 << CS01) ;
+}

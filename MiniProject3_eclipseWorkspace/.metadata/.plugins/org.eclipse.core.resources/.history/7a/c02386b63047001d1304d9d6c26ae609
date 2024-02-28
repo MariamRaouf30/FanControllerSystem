@@ -1,0 +1,16 @@
+/*
+ * temp_sensor.c
+ *
+ *  Created on: Oct 8, 2022
+ *      Author: dell
+ */
+
+#include "temp_sensor.h"
+#include "adc.h"
+
+uint8 temp_sensor_getTemp(void){
+
+
+
+}
+

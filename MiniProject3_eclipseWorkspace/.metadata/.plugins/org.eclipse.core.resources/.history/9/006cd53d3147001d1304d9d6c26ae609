@@ -1,0 +1,13 @@
+/*
+ * temp_sensor.h
+ *
+ *  Created on: Oct 8, 2022
+ *      Author: dell
+ */
+
+#ifndef LM35_SENSOR_H_
+#define LM35_SENSOR_H_
+
+
+
+#endif /* LM35_SENSOR_H_ */

@@ -1,0 +1,1623 @@
+22:02:09 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:29: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:31: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:33: warning: implicit declaration of function 'LM35_sensor_getTemp'
+../MiniProject3.c:37: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:42: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:49: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:56: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:63: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9278 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:02:38 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:29: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:31: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:33: warning: implicit declaration of function 'LM35_sensor_getTemp'
+../MiniProject3.c:37: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:42: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:49: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:56: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:63: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9288 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:02:58 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:29: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:31: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:33: warning: implicit declaration of function 'LM35_sensor_getTemp'
+../MiniProject3.c:37: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:42: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:49: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:56: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:63:22: warning: multi-character character constant
+../MiniProject3.c:63: warning: passing argument 1 of 'LCD_displayString' makes pointer from integer without a cast
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9284 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:03:23 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:29: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:31: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:33: warning: implicit declaration of function 'LM35_sensor_getTemp'
+../MiniProject3.c:37: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:42: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:49: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:56: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:63: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9278 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:26:00 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c:127:18: warning: multi-character character constant
+../lcd.c: In function 'LCD_displayStringRowColumn':
+../lcd.c:165: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:174: warning: implicit declaration of function 'itoa'
+../lcd.c:175: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../lcd.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9278 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:27:01 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9278 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:28:04 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c:127:18: warning: multi-character character constant
+../lcd.c: In function 'LCD_displayStringRowColumn':
+../lcd.c:165: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:174: warning: implicit declaration of function 'itoa'
+../lcd.c:175: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../lcd.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9268 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:28:47 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c:127:18: warning: multi-character character constant
+../lcd.c: In function 'LCD_displayStringRowColumn':
+../lcd.c:165: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:174: warning: implicit declaration of function 'itoa'
+../lcd.c:175: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../lcd.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9278 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:28:53 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9278 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:32:18 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:31: warning: implicit declaration of function 'LM35_sensor_getTemp'
+../MiniProject3.c:35: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:40: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:47: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:54: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:61: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9274 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:47:54 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c:133:18: warning: multi-character character constant
+../lcd.c: In function 'LCD_displayStringRowColumn':
+../lcd.c:171: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:180: warning: implicit declaration of function 'itoa'
+../lcd.c:181: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../lcd.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9824 bytes (30.0% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:48:00 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9824 bytes (30.0% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:49:47 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9824 bytes (30.0% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:53:06 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:21: warning: unused variable 'temperature'
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9560 bytes (29.2% Full)
+(.text + .data + .bootloader)
+
+Data:        284 bytes (13.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:53:30 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:21: warning: unused variable 'temperature'
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9588 bytes (29.3% Full)
+(.text + .data + .bootloader)
+
+Data:        284 bytes (13.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:14:29 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:21: warning: unused variable 'temperature'
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9566 bytes (29.2% Full)
+(.text + .data + .bootloader)
+
+Data:        284 bytes (13.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:15:00 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:21: warning: unused variable 'temperature'
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:        264 bytes (12.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:17:34 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:        264 bytes (12.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:33:06 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:        264 bytes (12.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:33:06 **** Build of configuration Debug for project try ****
+make all 
+Building file: ../try.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"try.d" -MT"try.o" -c -o "try.o" "../try.c"
+Finished building: ../try.c
+ 
+Building target: try.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,try.map -mmcu=atmega32 -o "try.elf"  ./try.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [try.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:34:22 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:        264 bytes (12.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:34:23 **** Incremental Build of configuration Debug for project try ****
+make all 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+In file included from ../gpio.c:13:
+../gpio.h:16:23: error: std_types.h: No such file or directory
+In file included from ../gpio.c:13:
+../gpio.h:60: error: expected ')' before 'port_num'
+../gpio.h:68: error: expected ')' before 'port_num'
+../gpio.h:75: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPin'
+../gpio.h:84: error: expected ')' before 'port_num'
+../gpio.h:93: error: expected ')' before 'port_num'
+../gpio.h:100: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPort'
+../gpio.c:22: error: expected ')' before 'port_num'
+../gpio.c:88: error: expected ')' before 'port_num'
+../gpio.c:149: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPin'
+../gpio.c:191: error: expected ')' before 'port_num'
+../gpio.c:229: error: expected ')' before 'port_num'
+../gpio.c:261: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPort'
+make: *** [gpio.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:34:52 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:        264 bytes (12.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:34:52 **** Incremental Build of configuration Debug for project try ****
+make all 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+In file included from ../gpio.c:13:
+../gpio.h:16:23: error: std_types.h: No such file or directory
+In file included from ../gpio.c:13:
+../gpio.h:60: error: expected ')' before 'port_num'
+../gpio.h:68: error: expected ')' before 'port_num'
+../gpio.h:75: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPin'
+../gpio.h:84: error: expected ')' before 'port_num'
+../gpio.h:93: error: expected ')' before 'port_num'
+../gpio.h:100: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPort'
+../gpio.c:22: error: expected ')' before 'port_num'
+../gpio.c:88: error: expected ')' before 'port_num'
+../gpio.c:149: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPin'
+../gpio.c:191: error: expected ')' before 'port_num'
+../gpio.c:229: error: expected ')' before 'port_num'
+../gpio.c:261: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GPIO_readPort'
+make: *** [gpio.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:35:34 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:        264 bytes (12.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:35:34 **** Incremental Build of configuration Debug for project try ****
+make all 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../try.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"try.d" -MT"try.o" -c -o "try.o" "../try.c"
+In file included from ../try.c:17:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../try.c:185:18: warning: multi-character character constant
+../try.c: In function 'LCD_displayStringRowColumn':
+../try.c:223: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../try.c: In function 'LCD_intgerToString':
+../try.c:232: warning: implicit declaration of function 'itoa'
+../try.c:233: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../try.c
+ 
+Building target: try.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,try.map -mmcu=atmega32 -o "try.elf"  ./gpio.o ./try.o   
+Finished building target: try.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S try.elf  >"try.lss"
+Finished building: try.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 try.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7806 bytes (23.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:36:24 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:        264 bytes (12.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:36:24 **** Incremental Build of configuration Debug for project try ****
+make all 
+Building file: ../try.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"try.d" -MT"try.o" -c -o "try.o" "../try.c"
+In file included from ../try.c:17:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../try.c:185:18: warning: multi-character character constant
+../try.c: In function 'LCD_displayStringRowColumn':
+../try.c:223: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../try.c: In function 'LCD_intgerToString':
+../try.c:232: warning: implicit declaration of function 'itoa'
+../try.c:233: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../try.c
+ 
+Building target: try.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,try.map -mmcu=atmega32 -o "try.elf"  ./gpio.o ./try.o   
+Finished building target: try.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S try.elf  >"try.lss"
+Finished building: try.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 try.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7806 bytes (23.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:37:56 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:        264 bytes (12.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:37:57 **** Incremental Build of configuration Debug for project try ****
+make all 
+Building file: ../try.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"try.d" -MT"try.o" -c -o "try.o" "../try.c"
+In file included from ../try.c:18:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../try.c:186:18: warning: multi-character character constant
+../try.c: In function 'LCD_displayStringRowColumn':
+../try.c:224: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../try.c: In function 'LCD_intgerToString':
+../try.c:233: warning: implicit declaration of function 'itoa'
+../try.c:234: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../try.c
+ 
+Building target: try.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,try.map -mmcu=atmega32 -o "try.elf"  ./gpio.o ./try.o   
+Finished building target: try.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S try.elf  >"try.lss"
+Finished building: try.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 try.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7806 bytes (23.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:14:04 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:21: warning: unused variable 'temperature'
+Finished building: ../MiniProject3.c
+ 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c:131: error: conflicting types for 'LCD_displayString'
+../lcd.h:50: error: previous declaration of 'LCD_displayString' was here
+../lcd.c:133:18: warning: multi-character character constant
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:180: warning: implicit declaration of function 'itoa'
+make: *** [lcd.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:14:40 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:21: warning: unused variable 'temperature'
+Finished building: ../MiniProject3.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c:133:18: warning: multi-character character constant
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:180: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+In file included from ../pwm.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:        264 bytes (12.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:14:48 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:        264 bytes (12.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:16:27 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:21: warning: unused variable 'temperature'
+Finished building: ../MiniProject3.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_init':
+../lcd.c:16: error: 'LCD_ENABLE_PORT_ID' undeclared (first use in this function)
+../lcd.c:16: error: (Each undeclared identifier is reported only once
+../lcd.c:16: error: for each function it appears in.)
+../lcd.c:16: error: 'LCD_ENABLE_PIN_ID' undeclared (first use in this function)
+../lcd.c: In function 'LCD_sendCommand':
+../lcd.c:54: error: 'LCD_ENABLE_PORT_ID' undeclared (first use in this function)
+../lcd.c:54: error: 'LCD_ENABLE_PIN_ID' undeclared (first use in this function)
+../lcd.c: In function 'LCD_displayCharacter':
+../lcd.c:94: error: 'LCD_ENABLE_PORT_ID' undeclared (first use in this function)
+../lcd.c:94: error: 'LCD_ENABLE_PIN_ID' undeclared (first use in this function)
+../lcd.c:133:18: warning: multi-character character constant
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:180: warning: implicit declaration of function 'itoa'
+make: *** [lcd.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:17:06 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_sendCommand':
+../lcd.c:59: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_displayCharacter':
+../lcd.c:109: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:219: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9260 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:        264 bytes (12.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:17:49 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:21: warning: unused variable 'temperature'
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9308 bytes (28.4% Full)
+(.text + .data + .bootloader)
+
+Data:        284 bytes (13.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:18:08 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:21: warning: unused variable 'temperature'
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9302 bytes (28.4% Full)
+(.text + .data + .bootloader)
+
+Data:        284 bytes (13.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:18:27 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:31: warning: implicit declaration of function 'LM35_sensor_getTemp'
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9566 bytes (29.2% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:23:21 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:31: warning: implicit declaration of function 'LM35_sensor_getTemp'
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9478 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:26:56 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+In file included from ../MiniProject3.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9478 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:27:49 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+Finished building: ../MiniProject3.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9478 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:29:37 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9478 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:01:33 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+../MiniProject3.c: In function 'main':
+../MiniProject3.c:31: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../MiniProject3.c:35: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../MiniProject3.c
+ 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c:134:18: warning: multi-character character constant
+../lcd.c: In function 'LCD_displayStringRowColumn':
+../lcd.c:172: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:181: warning: implicit declaration of function 'itoa'
+../lcd.c:182: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+In file included from ../pwm.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9736 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:01:37 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9736 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:02:54 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9736 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:04:14 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+Finished building: ../MiniProject3.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_sendCommand':
+../lcd.c:59: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_displayCharacter':
+../lcd.c:109: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:219: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9478 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:48:42 **** Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+Finished building: ../MiniProject3.c
+ 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_sendCommand':
+../lcd.c:59: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_displayCharacter':
+../lcd.c:109: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:219: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+In file included from ../pwm.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9478 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:53:41 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+Finished building: ../MiniProject3.c
+ 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_sendCommand':
+../lcd.c:59: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_displayCharacter':
+../lcd.c:109: warning: unused variable 'lcd_port_value'
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:219: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+In file included from ../pwm.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9478 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:58:30 **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../MiniProject3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject3.d" -MT"MiniProject3.o" -c -o "MiniProject3.o" "../MiniProject3.c"
+Finished building: ../MiniProject3.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:211: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega32 -o "MiniProject3.elf"  ./MiniProject3.o ./adc.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9696 bytes (29.6% Full)
+(.text + .data + .bootloader)
+
+Data:        292 bytes (14.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

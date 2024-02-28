@@ -1,0 +1,27 @@
+/*
+ * dc_motor.c
+ *
+ *  Created on: Oct 8, 2022
+ *      Author: dell
+ */
+
+
+#include "dc_motor.h"
+#include <avr/io.h>
+#include "gpio.h"
+#include "pwm.h"
+
+void DcMotor_Init(void){
+	GPIO_setupPinDirection(DCMOTOR_PORT_ID,DCMOTOR_PIN1_ID,PIN_OUTPUT);
+	GPIO_setupPinDirection(DCMOTOR_PORT_ID,DCMOTOR_PIN2_ID,PIN_OUTPUT);
+
+	GPIO_writePin(DCMOTOR_PORT_ID,DCMOTOR_PIN1_ID,PIN_OUTPUT);
+	GPIO_writePin(DCMOTOR_PORT_ID,DCMOTOR_PIN1_ID,PIN_OUTPUT);
+}
+
+
+void DcMotor_Rotate(DcMotor_State state,uint8 speed){
+
+	PWM_Timer0_Start(speed);
+
+}
